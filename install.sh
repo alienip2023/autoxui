@@ -73,9 +73,9 @@ fi
 
 install_base() {
     if [[ x"${release}" == x"centos" ]]; then
-        yum install wget curl tar jq -y
+        yum install wget curl vim tar jq -y
     else
-        apt install wget curl tar jq -y
+        apt install wget curl  vim tar jq -y
     fi
 }
 
